@@ -3,7 +3,7 @@
 # for instructions.
 
 file_format: "1"
-id: zmk_tpc_test01
+id: zmk_tps_test01
 name: zmk-tps-practice01
 type: shield
 
@@ -20,5 +20,5 @@ requires:
   - seeed_xiao
 
 siblings:
-  - zmk_tpc_test01_left
-  - zmk_tpc_test01_right
+  - zmk_tps_test01_left
+  - zmk_tps_test01_right

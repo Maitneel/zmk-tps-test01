@@ -4,7 +4,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "zmk_tpc_test01-layouts.dtsi"
+#include "zmk_tps_test01-layouts.dtsi"
 
 / {
     chosen {
