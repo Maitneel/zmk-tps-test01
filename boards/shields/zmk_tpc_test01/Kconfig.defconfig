@@ -1,0 +1,19 @@
+if SHIELD_ZMK_TPC_TEST01_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "zmk-tpc-test01"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_ZMK_TPC_TEST01_LEFT
+
+if SHIELD_ZMK_TPC_TEST01_LEFT || SHIELD_ZMK_TPC_TEST01_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_BLE
+    default y
+
+endif # SHIELD_ZMK_TPC_TEST01_LEFT || SHIELD_ZMK_TPC_TEST01_RIGHT
