@@ -21,6 +21,8 @@
 include:
   - board: xiao_ble
     shield: zmk_tps_test01_left
+    snippet: zmk-usb-logging
 
   - board: xiao_ble
     shield: zmk_tps_test01_right
+    snippet: zmk-usb-logging
